@@ -7,6 +7,13 @@
 	<name>Common Util</name>
 	<description>Common Utility class</description>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>archiva.snapshots</id>
+			<name>Internal Snapshot Repository</name>
+			<url>http://localhost:8080/repository/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<scm>
 		<url>https://github.com/richygreat/utils.git</url>
