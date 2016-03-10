@@ -6,6 +6,32 @@
 	<version>1.1-SNAPSHOT</version>
 	<name>Common Util</name>
 	<description>Common Utility class</description>
+	<url>http://common-rgauth.rhcloud.com</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>richy</id>
+			<name>Richy Great</name>
+			<email>richygreat@gmail.com</email>
+			<url>http://common-rgauth.rhcloud.com</url>
+			<organization>RG</organization>
+			<organizationUrl>http://common-rgauth.rhcloud.com</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>America/New_York</timezone>
+		</developer>
+	</developers>
 
 	<scm>
 		<url>https://github.com/richygreat/utils.git</url>
