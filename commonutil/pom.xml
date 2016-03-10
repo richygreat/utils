@@ -2,14 +2,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.richygreat</groupId>
 	<artifactId>commonutil</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<name>Common Util</name>
 	<description>Common Utility class</description>
 
 	<scm>
 		<url>https://github.com/richygreat/utils.git</url>
 		<developerConnection>scm:git:https://github.com/richygreat/utils.git</developerConnection>
-		<tag>oss-release-init</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
