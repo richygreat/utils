@@ -114,7 +114,7 @@
 							<goal>sign</goal>
 						</goals>
 						<configuration>
-							<executable>C:\Program Files (x86)\GNU\GnuPG\pub\gpg.exe</executable>
+							<homedir>C:\Users\Richy\Documents\gnupg</homedir>
 						</configuration>
 					</execution>
 				</executions>
