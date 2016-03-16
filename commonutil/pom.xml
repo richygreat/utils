@@ -114,8 +114,7 @@
 							<goal>sign</goal>
 						</goals>
 						<configuration>
-							<executable>gpg</executable>
-							<keyname>A4987181</keyname>
+							<skip>true</skip>
 						</configuration>
 					</execution>
 				</executions>
