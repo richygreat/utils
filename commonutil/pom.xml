@@ -114,7 +114,7 @@
 							<goal>sign</goal>
 						</goals>
 						<configuration>
-							<skip>true</skip>
+							<executable>C:\Program Files (x86)\GNU\GnuPG\pub\gpg.exe</executable>
 						</configuration>
 					</execution>
 				</executions>
