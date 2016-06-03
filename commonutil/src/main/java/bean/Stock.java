@@ -7,12 +7,13 @@ public class Stock {
 	private Double changeInPrice;
 	private Double changeInPercent;
 	private Double marketCapital;
+	private String linkToData;
 
 	@Override
 	public String toString() {
 		return "Stock [companyName=" + companyName + ", industry=" + industry + ", lastPrice=" + lastPrice
 				+ ", changeInPrice=" + changeInPrice + ", changeInPercent=" + changeInPercent + ", marketCapital="
-				+ marketCapital + "]";
+				+ marketCapital + ", linkToData=" + linkToData + "]";
 	}
 
 	public String getCompanyName() {
@@ -61,6 +62,14 @@ public class Stock {
 
 	public void setMarketCapital(Double marketCapital) {
 		this.marketCapital = marketCapital;
+	}
+
+	public String getLinkToData() {
+		return linkToData;
+	}
+
+	public void setLinkToData(String linkToData) {
+		this.linkToData = linkToData;
 	}
 
 }

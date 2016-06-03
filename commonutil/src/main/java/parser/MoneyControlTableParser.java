@@ -27,6 +27,7 @@ public class MoneyControlTableParser {
 						switch (i) {
 						case 0:
 							stock.setCompanyName(td.select("a b").text());
+							stock.setLinkToData("http://www.moneycontrol.com" + td.select("a").attr("href"));
 							break;
 						case 1:
 							stock.setIndustry(td.select("a b").text());
