@@ -33,16 +33,16 @@ public class MoneyControlTableParser {
 							stock.setIndustry(td.select("a b").text());
 							break;
 						case 2:
-							stock.setLastPrice(Double.valueOf(td.text().replace(",","")));
+							stock.setLastPrice(Double.valueOf(td.text().replace(",", "")));
 							break;
 						case 3:
-							stock.setChangeInPrice(Double.valueOf(td.text().replace(",","")));
+							stock.setChangeInPrice(Double.valueOf(td.text().replace(",", "")));
 							break;
 						case 4:
-							stock.setChangeInPercent(Double.valueOf(td.text().replace(",","")));
+							stock.setChangeInPercent(Double.valueOf(td.text().replace(",", "")));
 							break;
 						case 5:
-							stock.setMarketCapital(Double.valueOf(td.text().replace(",","")));
+							stock.setMarketCapital(Double.valueOf(td.text().replace(",", "")));
 							break;
 						default:
 							break;

@@ -1,13 +1,19 @@
 package bean;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Stock {
+	@SerializedName("companyName")
 	private String companyName;
-	private String industry;
+	private transient String industry;
+	@SerializedName("lastPrice")
 	private Double lastPrice;
+	@SerializedName("change")
 	private Double changeInPrice;
+	@SerializedName("pChange")
 	private Double changeInPercent;
-	private Double marketCapital;
-	private String linkToData;
+	private transient Double marketCapital;
+	private transient String linkToData;
 
 	@Override
 	public String toString() {
