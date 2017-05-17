@@ -7,6 +7,10 @@
 	<description>Common Utility class</description>
 	<url>http://common-rgauth.rhcloud.com</url>
 
+	<properties>
+  		<project.scm.id>my-scm-server<project.scm.id>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.jsoup</groupId>
