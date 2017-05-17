@@ -8,7 +8,7 @@
 	<url>http://common-rgauth.rhcloud.com</url>
 
 	<properties>
-  		<project.scm.id>my-scm-server<project.scm.id>
+  		<project.scm.id>my-scm-server</project.scm.id>
 	</properties>
 
 	<dependencies>
